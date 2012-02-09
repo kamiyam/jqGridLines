@@ -1,0 +1,113 @@
+@charset "utf-8";
+@import url("reset.css");
+@import url("general.css");
+
+
+@font-face {
+    font-family: "penna";
+    src: local("penna"), url("penna.ttf") format("truetype"),url("penna.otf") format("opentype");
+}
+
+body{
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: -webkit-radial-gradient(black 15%, transparent 16%) 0 0, -webkit-radial-gradient(black 15%, transparent 16%) 8px 8px, -webkit-radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px, -webkit-radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+	background-image: -webkit-radial-gradient(center, black 15%, transparent 16%), -webkit-radial-gradient(center, black 15%, transparent 16%), -webkit-radial-gradient(center, rgba(255, 255, 255, 0.0976563) 15%, transparent 20%), -webkit-radial-gradient(center, rgba(255, 255, 255, 0.0976563) 15%, transparent 20%);
+	background-repeat-x: initial, initial, initial, initial;
+	background-repeat-y: initial, initial, initial, initial;
+	background-attachment: initial, initial, initial, initial;
+	background-position-x: 0px, 8px, 0px, 8px;
+	background-position-y: 0px, 8px, 1px, 9px;
+	background-origin: initial, initial, initial, initial;
+	background-clip: initial, initial, initial, initial;
+	background-color: #282828;
+	background-size: 16px 16px;
+}
+
+h1, h2, h3, h4, h5 {
+	/*font-family: georgia;*/
+	font-family: 'Century Gothic', Helvetica, Verdana, Arial, Sans-Serif;
+}
+
+#wrap{
+	background:#FFF;
+	width:1024px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#sub_wrap{
+	padding:10px;
+}
+
+header{
+
+	height:170px;
+	border: 1px solid #666;
+}
+h1#title{
+	position:relative;
+	font-family:penna;
+	font-size:80px;
+	padding-left:0.3em;
+	padding-top:0.3em;
+}
+
+h1#title span#s1{
+	color:#A29191;
+}
+h1#title span#s2{
+	color:#91A291;
+}
+
+p#descripton{
+	position:absolute;
+	top:115px;
+	padding-left:50px;
+	font-size:30px;
+	color:#999;
+}
+div#contains
+{
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+article section
+{
+	font-size: 18px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #666;
+	margin-bottom: 20px;
+}
+
+article section h2{
+	font-size: 24px;
+	line-height: 2em;
+	padding-left: 1em;
+	border-left: 3px solid #e24d4d;
+}
+article section div{
+	padding: 10px;
+}
+
+footer{
+	background-color:#CCC;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #000;
+}
+address{
+	padding: 20px;
+}
+p#copylight{
+	text-align:center;
+}

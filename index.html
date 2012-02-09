@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5 Canvas Grid Line jQueryPlugin | jqGridLines</title>
+
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div id="wrap">
+<div id="sub_wrap">
+<header>
+	<h1 id="title">jq<span id="s1">G</span>rid<span id="s2">L</span>ines</h1>
+	<p id="descripton">HTML5 Canvas Grid Line jQueryPlugin</p>
+</header>
+
+<div id="contains">
+<article>
+<section>
+<h2>jqGridLines?</h2>
+<div>
+<p>指定した要素内にGridを引くjQueryプラグインです。デバッグ時の位置確認などにお使いください。</p>
+</div>
+</section>
+<section>
+<h2>使い方</h2>
+<div>
+<p>jQuery（Release時 Ver.1.6.4）を読み込んでからjqGridLinesを読み込みます。</p>
+<code><pre>
+
+</pre></code>
+<p>指定した要素にGridを引くことができます。<br/>
+要素が複数の場合は$("#hoge").first()で取得出来る要素が対象です。
+</p>
+</div>
+</section>
+
+<section>
+<h2>オプション</h2>
+<div>
+<p>オプションによって色々な設定を行うことができます。</p>
+<table>
+<tr>
+<td>項目</td>
+<td>設定値</td>
+</tr>
+</table>
+</div>
+</section>
+<section>
+<h2>ライセンス</h2>
+<div>
+<p>MIT</p>
+</div>
+</section>
+</article>
+<aside>
+</aside>
+</div>
+</div>
+
+<footer>
+	<address class="align_right">@ <a href="http://twitter.com/#!/kamiyam" target="_blank">kamiyam</a></address>
+	<p id="copylight"> Copyright &copy; 2011 k5m All Rights Reserved.</p>
+</footer>
+</div>
+</body>
+
+<script src="js/modernizr-1.7.min.js"></script>
+<!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+
+<script type="text/javascript" src="js/jqGridLines.js"></script>
+<script type="text/javascript">
+	$( "body" ).jqGridLines();
+</script>
+</html>
